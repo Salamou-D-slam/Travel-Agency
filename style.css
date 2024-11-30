@@ -101,6 +101,10 @@ small {
 
 /*STEPS*/
 
+#steps{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 #steps ul {
     width: 1000px;

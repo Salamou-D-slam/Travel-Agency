@@ -80,16 +80,16 @@ section{
 }
 
 .container {
-    height: 300px;
+    height: 500px;
     background-color: #ff7a00;
 }    
 
 form {
     
     width: 500px;
-    height: 300px;
-    margin: 180px auto;
-    box-shadow: 0px 0px 1px 5px rgb(136, 114, 23);
+    height: 500px;
+    margin: 90px auto;
+    box-shadow: 0px 0px 1px 5px rgb(23, 96, 136);
 }
 
 legend {

@@ -1,13 +1,15 @@
-# fly.toml app configuration file generated for travel-agency-wandering-surf-1552 on 2025-01-16T18:52:17+01:00
+# fly.toml app configuration file generated for travel-agency-islam on 2025-01-16T18:55:39+01:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'travel-agency-wandering-surf-1552'
+app = 'travel-agency-islam'
 primary_region = 'cdg'
 
+[build]
+
 [http_service]
-  internal_port = 8080
+  internal_port = 3000
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
